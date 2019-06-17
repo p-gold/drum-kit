@@ -1,0 +1,48 @@
+html{
+    background: url(img/stage.jpg) ;
+    background-size: cover;
+}
+
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family:  sans serif;
+}
+
+.keys{
+
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-height: 100vh;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.key{
+    border: 4px solid rgb(14, 31, 28);
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin: 0.3rem;
+    border-radius: 8px;
+    width: 4%;
+    transition: all .09s;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.sound{
+    color: #ffb62f;
+   
+}
+
+kbd{
+    display: block;
+    font-size: 30px;
+    color: cyan;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffb62f;
+    box-shadow: 0 0 5px rgb(206, 17, 196);
+}
